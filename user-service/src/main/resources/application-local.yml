@@ -12,5 +12,5 @@ app:
     secret: NDQ1ZjAzNjQtMzViZi00MDRjLTljZjQtNjNjYWIyZTU5ZDYw
 
 email:
-  recipient: unkingip@mail.ru
+  recipient: ${MAIL_APP}
   password: ${MAIL_PASSWORD_APP}
