@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://pg_db:5432/krainet
+    username: ${DB_LOGIN}
+    password: ${DB_PASSWORD}
+
+app:
+  jwt:
+    secret: NDQ1ZjAzNjQtMzViZi00MDRjLTljZjQtNjNjYWIyZTU5ZDYw
+
+email:
+  recipient: ${MAIL_LOGIN_APP}
+  password: ${MAIL_PASSWORD_APP}

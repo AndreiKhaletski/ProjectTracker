@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://127.0.0.1:15432/krainet
+    username: user_krainet
+    password: 855312
+
+app:
+  jwt:
+    secret: NDQ1ZjAzNjQtMzViZi00MDRjLTljZjQtNjNjYWIyZTU5ZDYw
+
+email:
+  recipient: unkingip@mail.ru
+  password: ${MAIL_PASSWORD_APP}
